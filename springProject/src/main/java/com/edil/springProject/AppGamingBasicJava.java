@@ -5,8 +5,8 @@ import com.edil.springProject.game.MarioGame;
 
 public class AppGamingBasicJava {
     public static void main(String[] args){
-        var marioGame = new MarioGame();
-        var gameRunner = new GameRunner(marioGame);
+        var game = new MarioGame();
+        var gameRunner = new GameRunner(game);
         gameRunner.run();
     }
 
